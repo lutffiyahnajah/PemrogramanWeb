@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi Siswa</title>
+</head>
+
+<body style="background-color:lightcyan ;">
+    <h2 style="background-color:lightpink;" align="center">FORM PENDAFTARAN SISWA</h2>
+    <hr>
+    <br>
+    <h3 style="background-color:lightskyblue;" align="center">Data Diri</h3>
+    <table style="background-color: lightskyblue;" border="0" cellspacing="20" width="600" align="center">
+        <tr>
+            <td>NISN</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Nama Lengkap</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Tempat Lahir</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Tanggal Lahir</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td><input type="radio" name="jk" value="L"> Laki-laki <br>
+                <input type="radio" name="jk" value="P"> Perempuan </td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td><select name="" id="">
+                <option value="Islam"> Islam </option>
+                <option value="Kristen"> Kristen</option>
+                <option value="Katolik"> Katolik </option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+                <option value="Lainnya">Lainnya</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td>Asal Sekolah</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>No. HP</td>
+            <td><input type="tel" pattern="^\d{12}$" required></td>
+        </tr>
+    </table>
+
+    <h3 style="background-color: lightskyblue;" align="center">Data Alamat</h3>
+    <table style="background-color: lightskyblue;" border="0" cellspacing="20" width="600" align="center">
+        <tr>
+            <td>Alamat</td>
+            <td><textarea cols="40" rows "40"></textarea></td>
+        </tr>
+        <tr>
+            <td>Kode Pos</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Provinsi</td>
+            <td><select name="" id="">
+            <option value="Aceh">Aceh</option>
+            <option value="Sumatera Utara">Sumatera Utara</option>
+            <option value="Sumatera Barat">Sumatera Barat</option>
+            <option value="Riau">Riau</option>
+            <option value="Kepulauan Riau">Kepulauan Riau</option>
+            <option value="Jambi">Jambi</option>
+            <option value="Sumatera Selatan">Sumatera Selatan</option>
+            <option value="Kepulauan Bangka Belitung">Kepulauan Bangka Belitung</option>
+            <option value="Bengkulu">Bengkulu</option>
+            <option value="Lampung">Lampung</option>
+            <option value="DKI Jakarta">DKI Jakarta</option>
+            <option value="Banten">Banten</option>
+            <option value="Jawa Barat">Jawa Barat</option>
+            <option value="Jawa Tengah">Jawa Tengah</option>
+            <option value="DI Yogyakarta">DI Yogyakarta</option>
+            <option value="Jawa Timur">Jawa Timur</option>
+            <option value="Banten">Banten</option>
+            <option value="Bali">Bali</option>
+            <option value="Nusa Tenggara Barat">Nusa Tenggara Barat</option>
+            <option value="Nusa Tenggara Timur">Nusa Tenggara Timur</option>
+            <option value="Kalimantan Barat">Kalimantan Barat</option>
+            <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+            <option value="Kalimantan Selatan">Kalimantan Selatan</option>
+            <option value="Kalimantan Timur">Kalimantan Timur</option>
+            <option value="Sulawesi Utara">Sulawesi Utara</option>
+            <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+            <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+            <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+            <option value="Gorontalo">Gorontalo</option>
+            <option value="Sulawesi Barat">Sulawesi Barat</option>
+            <option value="Maluku">Maluku</option>
+            <option value="Maluku Utara">Maluku Utara</option>
+            <option value="Papua">Papua</option>
+            <option value="Papua Barat">Papua Barat</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Kabupaten/Kota</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Kecamatan</td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    <h3 style="background-color: lightskyblue;" align="center">Pilihan Jurusan 1 dan 2</h3>
+    <table style="background-color: lightskyblue;" border="0" cellspacing="20" width="600" align="center">
+        <tr>
+            <td>IPA</td>
+            <td><input type="checkbox" value="IPA"></td>
+            <td>IPS</td>
+            <td><input type="checkbox" value="IPS"></td>
+            <td>Bahasa</td>
+            <td><input type="checkbox" value="Bahasa"></td>
+        </tr>
+    </table>
+
+    <table border="0" cellspacing="20" width="500" align="center">
+        <tr>
+            <td><input type="submit" value="Daftar">
+                <input type="reset" value="Reset"></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
